@@ -1,0 +1,29 @@
+{
+  "name": "mighty-maxx",
+  "version": "1.0.0",
+  "description": "The Mighty Maxx Theme by Palamike",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "compass-mixins": "^0.12.10",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-zip": "^4.2.0",
+    "natives": "^1.1.6",
+    "susy": "^3.0.5"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-files-sync": "^0.3.2",
+    "gulp-uglify": "^2.1.2"
+  }
+}

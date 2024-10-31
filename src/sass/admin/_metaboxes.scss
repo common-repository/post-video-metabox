@@ -1,0 +1,60 @@
+$metabox-title-bg: #ee6e73;
+$metabox-title-font-color: white;
+
+.pvt-metaboxes-classic {
+
+  .form-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    //video metabox
+    .add-post-video-button {
+      .dashicons {
+        padding-top: 3px;
+      }
+    }
+
+    input[type='text'].add-post-video-text{
+      width: 70%;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type='text'],textarea {
+      width: 100%;
+      display: inline-block;
+    }
+
+  }
+
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.pvt-metaboxes {
+  input[type='text'],textarea {
+    width: 100%;
+    display: inline-block;
+  }
+}
+
+#pvt_post_video_meta_box_classic {
+
+  button .toggle-indicator:before {
+    color: $metabox-title-font-color;
+  }
+
+  .button-link:focus .toggle-indicator:before{
+    -webkit-box-shadow: 0 0 0 1px $metabox-title-font-color, 0 0 2px 1px rgba(255,255,255,.8);
+    box-shadow: 0 0 0 1px $metabox-title-font-color, 0 0 2px 1px rgba(255,255,255,.8);
+  }
+
+  h2.hndle {
+    background-color: $metabox-title-bg;
+    color: $metabox-title-font-color;
+  }
+
+}
